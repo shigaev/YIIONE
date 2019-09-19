@@ -1,0 +1,121 @@
+2019/09/18 16:05:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\OSPanel\domains\yiione\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(271): CController->missingAction('')
+#1 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(283): CController->run('')
+#2 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('message')
+#3 C:\OSPanel\domains\yiione\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\OSPanel\domains\yiione\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/?r=message
+---
+2019/09/19 10:06:56 [error] [exception.CException] exception 'CException' with message 'MessageController cannot find the requested view "hello".' in C:\OSPanel\domains\yiione\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(783): CController->renderPartial('hello', NULL, true)
+#1 C:\OSPanel\domains\yiione\protected\controllers\MessageController.php(9): CController->render('hello')
+#2 C:\OSPanel\domains\yiione\yii\framework\web\actions\CInlineAction.php(50): MessageController->actionHello()
+#3 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(283): CController->run('')
+#7 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('message')
+#8 C:\OSPanel\domains\yiione\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\OSPanel\domains\yiione\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=message
+---
+2019/09/19 10:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "privet".' in C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('privet')
+#1 C:\OSPanel\domains\yiione\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\yiione\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=privet
+---
+2019/09/19 10:07:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "privet".' in C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('privet')
+#1 C:\OSPanel\domains\yiione\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\yiione\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=privet
+---
+2019/09/19 10:07:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "privet".' in C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('privet')
+#1 C:\OSPanel\domains\yiione\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\yiione\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=privet
+---
+2019/09/19 10:07:43 [error] [exception.CException] exception 'CException' with message 'MessageController cannot find the requested view "hello".' in C:\OSPanel\domains\yiione\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(783): CController->renderPartial('hello', NULL, true)
+#1 C:\OSPanel\domains\yiione\protected\controllers\MessageController.php(9): CController->render('hello')
+#2 C:\OSPanel\domains\yiione\yii\framework\web\actions\CInlineAction.php(50): MessageController->actionHello()
+#3 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(283): CController->run('')
+#7 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('message')
+#8 C:\OSPanel\domains\yiione\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\OSPanel\domains\yiione\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=message
+---
+2019/09/19 10:08:00 [error] [exception.CException] exception 'CException' with message 'MessageController cannot find the requested view "hello".' in C:\OSPanel\domains\yiione\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(783): CController->renderPartial('hello', NULL, true)
+#1 C:\OSPanel\domains\yiione\protected\controllers\MessageController.php(9): CController->render('hello')
+#2 C:\OSPanel\domains\yiione\yii\framework\web\actions\CInlineAction.php(50): MessageController->actionHello()
+#3 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(283): CController->run('')
+#7 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('message')
+#8 C:\OSPanel\domains\yiione\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\OSPanel\domains\yiione\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=message
+---
+2019/09/19 10:08:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "privet".' in C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('privet')
+#1 C:\OSPanel\domains\yiione\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\OSPanel\domains\yiione\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=privet
+---
+2019/09/19 10:38:29 [error] [php] date() expects at most 2 parameters, 3 given (C:\OSPanel\domains\yiione\protected\views\message\hello.php:11)
+Stack trace:
+#0 C:\OSPanel\domains\yiione\yii\framework\web\CBaseController.php(96): MessageController->renderInternal()
+#1 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(870): MessageController->renderFile()
+#2 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(783): MessageController->renderPartial()
+#3 C:\OSPanel\domains\yiione\protected\controllers\MessageController.php(9): MessageController->render()
+#4 C:\OSPanel\domains\yiione\yii\framework\web\actions\CInlineAction.php(50): MessageController->actionHello()
+#5 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(287): MessageController->runAction()
+#7 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(266): MessageController->runActionWithFilters()
+#8 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(283): MessageController->run()
+#9 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\OSPanel\domains\yiione\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\OSPanel\domains\yiione\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=message
+in C:\OSPanel\domains\yiione\protected\views\message\hello.php (11)
+in C:\OSPanel\domains\yiione\protected\controllers\MessageController.php (9)
+in C:\OSPanel\domains\yiione\index.php (13)
+2019/09/19 14:03:35 [error] [exception.CException] exception 'CException' with message 'MessageController cannot find the requested view "hello/goodbye".' in C:\OSPanel\domains\yiione\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(783): CController->renderPartial('hello/goodbye', Array, true)
+#1 C:\OSPanel\domains\yiione\protected\controllers\MessageController.php(11): CController->render('hello/goodbye', Array)
+#2 C:\OSPanel\domains\yiione\yii\framework\web\actions\CInlineAction.php(50): MessageController->actionHello()
+#3 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\OSPanel\domains\yiione\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(283): CController->run('hello')
+#7 C:\OSPanel\domains\yiione\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('message/hello')
+#8 C:\OSPanel\domains\yiione\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\OSPanel\domains\yiione\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=message/hello
+HTTP_REFERER=http://yiione/index.php?r=message/goodbye
+---
